@@ -69,8 +69,6 @@ public class OI {
 
 	    
         // SmartDashboard Buttons
-        SmartDashboard.putData("Autonomous Command", new AutonomousCommand());
-
         SmartDashboard.putData("AutonomousMoveForAWhileCommand", new AutonomousMoveForAWhileCommand());
 
 

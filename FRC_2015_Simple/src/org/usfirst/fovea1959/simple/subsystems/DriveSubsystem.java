@@ -54,6 +54,10 @@ public class DriveSubsystem extends Subsystem {
     	robotDrive.mecanumDrive_Cartesian(x, y, twist, 0);
     }
     
+    public void moveForward(double speed) {
+    	robotDrive.mecanumDrive_Cartesian(0, -speed, 0, 0);
+    }
+    
     public void stop() {
     	robotDrive.stopMotor();
     }
